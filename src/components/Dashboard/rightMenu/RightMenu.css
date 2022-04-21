@@ -1,0 +1,86 @@
+button{
+    border: 0px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.rightPanel{
+    height:100vh;
+    /* background-color:black; */
+}
+
+.logoutBtn{
+    border-radius: 1.8rem;
+    background-color: #EBEBEB;
+    height: 1.3rem;
+    padding: 0 1rem;
+    margin: 0 .25rem;
+}
+
+.scriptologo{
+    height:1.4rem;
+    width:1.4rem;
+}
+
+.box{
+    border-radius: 2rem;
+    background-color: #E0EAFF;
+    height: 2.2rem;
+    padding: 0 1.5rem;
+}
+
+.rightBoxHeader{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color:#074EE8;
+}
+
+.terms{
+    color:black;
+}
+
+.settingsLogo{
+    height:1.125rem;
+    width:1.125rem;
+    background-color:white;
+}
+
+
+
+
+textarea {
+	border: none;
+	resize: none;
+	background-color: #f8f8f8;
+}
+
+textarea:focus {
+	outline: none;
+}
+
+.post {
+	background-color: #f8f8f8;
+	/* background-color: #fef68a; */
+	border-radius: 10px;
+	padding: 1rem;
+	/* min-height: 170px; */
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	white-space: pre-wrap;
+}
+
+.publish {
+	background-color: #E0EAFF;
+	border: none;
+	border-radius: 15px;
+	padding: 5px 10px 5px 10px;
+    width: 5rem;
+}
+
+.publish:active{
+    background-color:#074EE8;
+    color:white;
+}

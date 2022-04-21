@@ -1,0 +1,24 @@
+::-webkit-scrollbar {
+  width: 0;  /* Remove scrollbar space */
+  background: transparent;  /* Optional: just make scrollbar invisible */
+}
+
+#dashboard {
+  height: 100vh;
+  width: 100vw;
+  padding:0 1rem;
+}
+
+.left {
+  background: white;
+  height: 100%;
+}
+.center{
+  /* background:rgb(232, 232, 232); */
+  height: 100vh;
+  overflow-y: scroll;
+  border: 1px solid #AAAAAA;
+}
+.right {
+  height: 100%;
+}

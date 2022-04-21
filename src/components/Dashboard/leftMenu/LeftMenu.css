@@ -1,0 +1,75 @@
+button{
+    border: 0px;
+}
+
+.scriptoLogo{
+    height:1.4rem;
+    width:1.4rem;
+}
+
+.box{
+    border-radius: 2rem;
+    background-color: #E0EAFF;
+    height: 2.2rem;
+    padding: 0 1.5rem;
+}
+
+.boxContent{
+    font-size: 0.875rem !important;
+}
+
+.tagLogo{
+    height:1.3rem;
+    width:1.3rem;
+}
+
+.tagsHeader{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color:#074EE8;
+}
+
+.filterBtn{
+    border-radius: 1.8rem;
+    background-color: #EBEBEB;
+    height: 1.3rem;
+    padding: 0 1rem;
+    margin: 0 .25rem;
+}
+
+.filters .filterBtn:focus{
+    background-color: black;
+    color: white
+}
+
+.penLogo{
+    height:1.3rem;
+    width:1.3rem;
+}
+
+.profilePic{
+    height:2rem;
+    width:2rem;
+    background-color:#E0E0E0;
+    border-radius: 1.8rem;
+}
+
+.profileBtn{
+    border-radius: 1.8rem;
+    background-color: rgba(0,0,0,0);
+    border: 1px solid #074EE8;
+    height: 1.3rem;
+    padding: 0 1rem;
+    margin: 0 .25rem;
+}
+
+.profileBtn:active{
+    background-color: #074EE8;
+    color:white;
+}
+
+@media only screen and (max-width: 1350px) {
+    .profileBtnCol {
+      justify-content: center;
+    }
+  }
